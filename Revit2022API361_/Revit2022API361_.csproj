@@ -80,6 +80,12 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RevitAPILibrary\RevitAPILibrary\RevitAPILibrary.csproj">
+      <Project>{b2eb6591-894e-4ef3-be2d-43c1bc3f9a6e}</Project>
+      <Name>RevitAPILibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(TargetDir)*.*" "C:\PROG\App\DLL\" /y /i

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
 	<AddIn Type="Command">
-		<Assembly>"C:\PROG\App\DLL\Revit2022API3600.dll"</Assembly>
+		<Assembly>"C:\PROG\App\DLL\Revit2022API361_.dll"</Assembly>
 		<AddInId>72B0EF69-CD7B-48A8-BAC0-BDF3E42EC040</AddInId>
-		<FullClassName>Revit2022API3600.Main</FullClassName>
+		<FullClassName>Revit2022API361_.Main</FullClassName>
 		<VendorId>ADSK</VendorId>
 		<Text>Тема 6 Создание воздуховода по двум точкам</Text>
 	</AddIn>
